@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const router = require("./router");
 const url_local =
-  "mongodb+srv://wrsMKqHXcLIdob5I:wrsMKqHXcLIdob5I@cluster0.vxqcy.mongodb.net/Practice?retryWrites=true&w=majority";
+  "mongodb+srv://wrsMKqHXcLIdob5I:wrsMKqHXcLIdob5I@cluster0.vxqcy.mongodb.net/BlogApi?retryWrites=true&w=majority";
 const app = express();
 
 mongoose
